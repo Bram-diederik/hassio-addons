@@ -151,7 +151,8 @@ if [ "$default_ssl_conf" != "default" ]; then
 		exit 1
 	fi
 fi
-
+echo hackedy hack
+cp /share/apache2/ssl.conf /etc/apache2/conf.d/ssl.conf
 echo "Here is your web file architecture."
 ls -l $webrootdocker
 
