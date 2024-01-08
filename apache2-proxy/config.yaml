@@ -1,6 +1,6 @@
 ---
 name: Apache2 proxy
-version: 0.0.2
+version: 0.0.3
 slug: apache2-proxy
 description: OpenSource Webserver for modules to act as a proxy
 url: https://github.com/bram.diederik/hassio-addons/tree/master/apache2-proxy
