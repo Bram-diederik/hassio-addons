@@ -2,8 +2,8 @@
 name: sola MPD addon
 version: 0.0.1
 slug: sola-mpd
-description: mpd web client 
-url: https://github.com/bram.diederik/hassio-addons/tree/master/sola_mod/
+description: mpd web client
+url: https://github.com/bram.diederik/hassio-addons/sola_mod/
 arch:
   - armhf
   - armv7
@@ -13,7 +13,6 @@ arch:
 startup: application
 boot: auto
 webui: http://[HOST]:[PORT:3000]
-ingress: true
 init: false
 panel_icon: mdi:web-box
 options:
